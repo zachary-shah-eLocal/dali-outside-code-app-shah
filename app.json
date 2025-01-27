@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "name": "advertiser-dashboard-mobile-application",
+    "slug": "advertiser-dashboard-mobile-application",
+    "scheme": "exp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.advertiser-dashboard-mobile-application",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAxnnlhNNNh4uCkLEsgDcEKCZncFXFUiik"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zacharyshahelocal.advertiserdashboardmobileapplication",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAxnnlhNNNh4uCkLEsgDcEKCZncFXFUiik"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9df76465-fd45-4d2b-8460-c45f32e2a1c2"
+      }
+    },
+    "plugins": []
+  }
+}
